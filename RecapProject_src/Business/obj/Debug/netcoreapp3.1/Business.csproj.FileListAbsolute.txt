@@ -1,0 +1,14 @@
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Barbaros\source\repos\RecapProject\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\Barbaros\source\repos\RecapProject\Business\obj\Debug\netcoreapp3.1\Business.pdb

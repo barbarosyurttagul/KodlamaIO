@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Barbaros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj"
               }
             }
           }
@@ -46,6 +46,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Barbaros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

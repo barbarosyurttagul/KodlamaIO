@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RecapProject_src",
+    "\\RecapProject_src\\DataAccess\\Concrete\\InMemory",
+    "\\RecapProject_src\\DataAccess\\obj",
+    "\\RecapProject_src\\Entities",
+    "\\RecapProject_src\\Entities\\Concrete"
+  ],
+  "PreviewInSolutionExplorer": false
+}

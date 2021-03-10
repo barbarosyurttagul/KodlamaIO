@@ -17,7 +17,14 @@ namespace Business.Concrete
         }
         public void Add(Car car)
         {
-            _carDal.Add(car);
+            if (car.DailyPrice > 0)
+            {
+                _carDal.Add(car);
+            }
+            else
+            {
+                Console.WriteLine("Araba günlük fiyatı 0'dan büyük olmalıdır");
+            }           
         }
 
         public void Delete(Car car)
@@ -30,6 +37,11 @@ namespace Business.Concrete
             return _carDal.GetAll();
         }
 
+        public List<Car> GetCarsByBrandId(int brandId)
+        {
+            return _carDal.GetAll(x => x.BrandId == brandId);
+        }
+
         public Car GetById(int id)
         {
             return _carDal.GetById(id);
@@ -38,6 +50,11 @@ namespace Business.Concrete
         public void Update(Car car)
         {
             _carDal.Update(car);
+        }
+
+        public List<Car> GetCarsByColorId(int colorId)
+        {
+            return _carDal.GetAll(x => x.ColorId == colorId);
         }
     }
 }

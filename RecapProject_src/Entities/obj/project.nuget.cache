@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aTy7Yk2dZvfzIWguth1m185CexnpVPGsK7+qAyDPafOnUeLsXYgGLjVt/Tb8l1fHPEz56Cq0pwNhQgtqXCsk9A==",
+  "dgSpecHash": "bAYVu+bRPqWL8P+ddILrm6xSaR6iNhNNsYToW+giLPhVgAgodBKYiHWulAUcYc6YHVMIuJYhB0RJuu9sCUNwgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Barbaros\\source\\repos\\RecapProject\\RecapProject_src\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

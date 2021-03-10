@@ -27,5 +27,25 @@ namespace Business.Concrete
             else
                 Console.WriteLine("Araba ismi minimum 2 karakter olmalıdır");
         }
+
+        public void Delete(Brand brand)
+        {
+            _brandDal.Delete(brand);
+        }
+
+        public List<Brand> GetAll()
+        {
+            return _brandDal.GetAll();
+        }
+
+        public Brand GetById(int brandId)
+        {
+            return _brandDal.Get(x => x.Id == brandId);
+        }
+
+        public void Update(Brand brand)
+        {
+            _brandDal.Update(brand);
+        }
     }
 }

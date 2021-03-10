@@ -86,3 +86,5 @@ C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\bin\Debug
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CopyComplete
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

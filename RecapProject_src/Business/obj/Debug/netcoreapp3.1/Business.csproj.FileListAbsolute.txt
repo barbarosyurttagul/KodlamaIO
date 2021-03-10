@@ -26,3 +26,5 @@ C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\bin\Debug\
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Barbaros\source\repos\RecapProject\RecapProject_src\Business\bin\Debug\netcoreapp3.1\Core.pdb

@@ -10,7 +10,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-
+            AddRentalCar();
+            
             CarManager carManager = new CarManager(new EfCarDal());
             //var result = carManager.GetCarDetails();
 
@@ -23,8 +24,26 @@ namespace ConsoleUI
             //}
 
 
-            CarCRUDOps(carManager);
+            //CarCRUDOps(carManager);
             //BrandCRUDOps();
+
+            //AddCustomer();
+            
+        }
+
+        private static void AddRentalCar()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            
+            var result = rentalManager.Add(new Rental { CarId = 1, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = null });
+            Console.WriteLine(result.Message);
+        }
+
+        private static void AddCustomer()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            var result = customerManager.Add(new Customer { UserId = 1, CompanyName = "ADESE" });
+            Console.WriteLine(result.Message);
         }
 
         private static void BrandCRUDOps()

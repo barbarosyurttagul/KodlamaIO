@@ -12,11 +12,18 @@ namespace ConsoleUI
         {
 
             CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var item in carManager.GetCarDetails())
-            {
-                Console.WriteLine(item.CarBrand + item.Color + item.Model + item.Description);
-            }
-            //CarCRUDOps(carManager);
+            //var result = carManager.GetCarDetails();
+
+            //if (result.Success)
+            //{
+            //    foreach (var item in result.Data)
+            //    {
+            //        Console.WriteLine(item.CarBrand + item.Color + item.Model + item.Description);
+            //    }
+            //}
+
+
+            CarCRUDOps(carManager);
             //BrandCRUDOps();
         }
 
@@ -24,34 +31,24 @@ namespace ConsoleUI
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
             //Idsi 2 olan markayı getir
-            var brandId2 = brandManager.GetById(2);
-            Console.WriteLine(brandId2.Id + "-" + brandId2.Name);
 
-            brandManager.Add(new Brand { Name = "Fiat" });
-            brandManager.Update(new Brand { Id = 1, Name = "Hyundai" });
-            var brandtoDelete = brandManager.GetById(3);
-            brandManager.Delete(brandtoDelete);
-            foreach (var brand in brandManager.GetAll())
-            {
-                Console.WriteLine(brand.Id + brand.Name);
-            }
+
         }
 
         private static void CarCRUDOps(CarManager carManager)
         {
-            //Idsi 2 olan arabayı getir
-            var carId2 = carManager.GetById(2);
-            Console.WriteLine(carId2.BrandId + "-" + carId2.DailyPrice);
+            var result = carManager.GetAll();
 
-            carManager.Add(new Car { BrandId = 3, ColorId = 2, ModelYear = 1999, DailyPrice = 2000, Description = "beles" });
-            carManager.Update(new Car { Id = 1, BrandId = 2 });
-            var cartoDelete = carManager.GetById(4);
-            carManager.Delete(cartoDelete);
-            
-            foreach (var car in carManager.GetAll())
+            if (result.Success)
             {
-                Console.WriteLine(car.Id + "-" + car.BrandId + "-" + car.ColorId + "-" + car.ModelYear + "-" + car.DailyPrice + "-" + car.Description);
+                Console.WriteLine(result.Message);
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine($"Id: {car.Id}  BrandId: {car.BrandId}  ColorId: {car.ColorId}" +
+                        $" Günlük Fiyat: {car.DailyPrice} Açıklama: {car.Description}");
+                }
             }
+
         }
     }
 }
